@@ -49,6 +49,16 @@ The header does **not** rely on the hero video showing through a transparent nav
 
 Every image and its accompanying text (name, alt text, description) is meant to live in a config file, not inline in the template — see `content-config-schema.md`. When building a new page, pull content from config rather than writing product names/descriptions directly into HTML, even if it feels faster in the moment. The category page template especially will be populated almost entirely from config once real product data exists.
 
+## 8. FAQ accordion (AEO — answer text always in the DOM)
+
+```html
+<div class="faq-item">
+  <button class="faq-q" aria-expanded="false"><span>Question text</span><svg>...</svg></button>
+  <div class="faq-a"><p>Answer text.</p></div>
+</div>
+```
+`.faq-a` is collapsed with `max-height:0; overflow:hidden`, expanded via a `.open` class toggle on click — the answer `<p>` is always present in the HTML source, never injected by JS and never `display:none`. This matters specifically for answer-engine crawlers (AI Overviews, Perplexity, voice assistants): content that only exists after a JS interaction is unreliable to crawl, content that's in the DOM but visually collapsed is not. Pair with `FAQPage` JSON-LD listing the same questions/answers verbatim — see `UFI_hospital_furniture.html` for the reference implementation. Introduced there because hospital buyers have real recurring procurement questions (tenders, corrosion resistance, lead times); add this section to a category page when genuine buyer questions exist for it, not as a default on every page.
+
 ## Accessibility baseline (non-negotiable on every page)
 
 - Every animated/motion pattern above has a `prefers-reduced-motion: reduce` fallback that shows the end-state immediately, no exceptions.

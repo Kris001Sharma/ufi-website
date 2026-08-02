@@ -119,7 +119,72 @@
       "accentColor": "#3E6690",
       "shortDescription": "Hospital beds, trolleys & ward units",
       "longDescription": "Hospital beds, trolleys and ward furniture.",
-      "url": "/hospital-furniture/"
+      "url": "/hospital-furniture/",
+      "products": [
+        {
+          "id": "obstetric_delivery_bed",
+          "name": "Obstetric Delivery Bed",
+          "subCategory": "patient_beds",
+          "spec": "Adjustable, powder-coated steel frame",
+          "rating": 5,
+          "bestseller": true,
+          "bestsellerLabel": "Featured",
+          "description": "Built for modern maternity and delivery wards. Adjustable positioning, easy-clean surfaces, and the same 9-step powder-coated finish used across every UFI category for long-term corrosion resistance in high-hygiene environments.",
+          "configurator": {
+            "finishes": ["Clinical White", "Stainless Steel"],
+            "sizes": ["Manual Crank", "Electric Adjustable"],
+            "defaultSize": "Manual Crank"
+          }
+        },
+        {
+          "id": "medicine_trolley_ms",
+          "name": "Medicine Trolley (MS)",
+          "subCategory": "trolleys_carts",
+          "spec": "Mild steel, powder-coated, multi-tier storage",
+          "rating": 5,
+          "bestseller": false
+        },
+        {
+          "id": "hospital_bench_4seater",
+          "name": "Hospital Bench (4 Seater)",
+          "subCategory": "ward_seating",
+          "spec": "Heavy-duty perforated seating for waiting areas",
+          "rating": 4,
+          "bestseller": false
+        }
+      ],
+      "subCategoryFilters": [
+        { "id": "patient_beds", "label": "Patient Beds" },
+        { "id": "trolleys_carts", "label": "Trolleys & Carts" },
+        { "id": "ward_seating", "label": "Ward Seating" },
+        { "id": "storage_cabinets", "label": "Storage & Cabinets" }
+      ],
+      "hero": {
+        "h1": "Designed for Care. Built for Comfort.",
+        "sub": "Safety, comfort and reliability in every detail — hospital furniture engineered to withstand rigorous institutional environments while prioritizing patient comfort and infection control."
+      },
+      "bulkCta": {
+        "title": "Fitting out a new ward or hospital?",
+        "desc": "Get institutional pricing for bulk and tender hospital furniture orders."
+      },
+      "faq": [
+        {
+          "q": "Does UFI supply hospital furniture for government tenders in Nepal?",
+          "a": "Yes. UFI supplies hospital and institutional furniture for both private healthcare facilities and government tender orders across Nepal, with volume pricing available for bulk ward fit-outs."
+        },
+        {
+          "q": "Are UFI hospital beds rust- and corrosion-resistant?",
+          "a": "Every UFI hospital bed and trolley goes through the same 9-stage pre-treatment and powder coating process used across all product categories, giving the steel frame long-term resistance to rust and corrosion in high-hygiene, frequently-cleaned environments."
+        },
+        {
+          "q": "What finish options are available for hospital furniture?",
+          "a": "Hospital furniture is available in clinical white or stainless steel finishes as standard, with manual crank or electric adjustable mechanisms depending on the product."
+        },
+        {
+          "q": "How long does delivery take for hospital furniture orders in Nepal?",
+          "a": "Delivery timelines depend on order volume and customization. Contact UFI directly with your ward or facility requirements for a specific delivery estimate."
+        }
+      ]
     },
     "office_furniture": {
       "name": "Office Furniture",
@@ -127,7 +192,72 @@
       "accentColor": "#5b6b76",
       "shortDescription": "Office tables, chairs & storage",
       "longDescription": "Office tables, chairs and storage units.",
-      "url": "/office-furniture/"
+      "url": "/office-furniture/",
+      "products": [
+        {
+          "id": "executive_office_desk",
+          "name": "Executive Office Desk",
+          "subCategory": "desks_workstations",
+          "spec": "160cm walnut-finish desk with cable management",
+          "rating": 5,
+          "bestseller": true,
+          "bestsellerLabel": "Featured",
+          "description": "The anchor piece for any executive workspace. Powder-coated steel frame beneath a durable laminate work surface, built for daily corporate use, not just the showroom floor.",
+          "configurator": {
+            "finishes": ["Walnut", "Charcoal Grey"],
+            "sizes": ["Compact — 120cm", "Executive — 160cm"],
+            "defaultSize": "Executive — 160cm"
+          }
+        },
+        {
+          "id": "ergonomic_mesh_chair",
+          "name": "Ergonomic Mesh Office Chair",
+          "subCategory": "seating",
+          "spec": "Adjustable height, lumbar support, 360° swivel",
+          "rating": 5,
+          "bestseller": false
+        },
+        {
+          "id": "mobile_filing_cabinet",
+          "name": "Mobile Filing Cabinet",
+          "subCategory": "storage_filing",
+          "spec": "3-drawer lockable steel pedestal",
+          "rating": 4,
+          "bestseller": false
+        }
+      ],
+      "subCategoryFilters": [
+        { "id": "desks_workstations", "label": "Desks & Workstations" },
+        { "id": "seating", "label": "Seating" },
+        { "id": "storage_filing", "label": "Storage & Filing" },
+        { "id": "reception_lounge", "label": "Reception & Lounge" }
+      ],
+      "hero": {
+        "h1": "Furniture That Works. Spaces That Inspire.",
+        "sub": "Premium office furniture engineered for comfort and productivity — desks, seating and storage built to outlast the workday, every day."
+      },
+      "bulkCta": {
+        "title": "Furnishing a new office or co-working space?",
+        "desc": "Get corporate pricing for bulk office furniture orders."
+      },
+      "faq": [
+        {
+          "q": "Does UFI supply office furniture for corporate bulk orders in Nepal?",
+          "a": "Yes. UFI supplies desks, seating and storage for corporate offices and co-working spaces across Nepal, with volume pricing for full-office and multi-branch fit-outs."
+        },
+        {
+          "q": "What warranty is offered on UFI office chairs and desks?",
+          "a": "Office furniture is built on the same powder-coated steel frame construction used across every UFI category. Contact UFI directly for specific warranty terms on individual products."
+        },
+        {
+          "q": "Can office desks be customized to specific workspace dimensions?",
+          "a": "Yes. Standard desk sizes are available alongside custom sizing for fitted workstations, reception counters, and non-standard office layouts."
+        },
+        {
+          "q": "Do you deliver and install office furniture across Nepal?",
+          "a": "UFI delivers from its Chitwan manufacturing facility to offices across Nepal. Contact the sales team with your location and order size for a delivery estimate."
+        }
+      ]
     },
     "home_furniture": {
       "name": "Home Furniture",
@@ -135,7 +265,74 @@
       "accentColor": "#C1694F",
       "shortDescription": "Metal sofas & dining tables",
       "longDescription": "Metal sofas and dining tables.",
-      "url": "/home-furniture/"
+      "url": "/home-furniture/",
+      "_note": "No real ad photography exists for this category yet (unlike Store/School/Hospital/Office) — products and copy originated from the project's own 'metal sofas, tables' category description, not sourced from a real campaign. Flag for real photography before launch.",
+      "products": [
+        {
+          "id": "metal_sofa_set",
+          "name": "Metal Sofa Set",
+          "subCategory": "sofas_seating",
+          "spec": "Powder-coated steel frame, cushioned seating",
+          "rating": 5,
+          "bestseller": true,
+          "bestsellerLabel": "Featured",
+          "description": "The same precision manufacturing and 9-step powder coating trusted by schools and hospitals, brought into the living room. A steel-framed sofa built to outlast the furniture around it.",
+          "configurator": {
+            "finishes": ["Matte Black", "Bronze"],
+            "sizes": ["2-Seater", "3-Seater"],
+            "defaultSize": "3-Seater"
+          }
+        },
+        {
+          "id": "metal_dining_table",
+          "name": "Metal Dining Table",
+          "subCategory": "dining_tables",
+          "spec": "Powder-coated steel frame, laminate top",
+          "rating": 5,
+          "bestseller": false
+        },
+        {
+          "id": "metal_coffee_table",
+          "name": "Metal Coffee Table",
+          "subCategory": "coffee_center_tables",
+          "spec": "Compact steel-frame center table",
+          "rating": 4,
+          "bestseller": false
+        }
+      ],
+      "subCategoryFilters": [
+        { "id": "sofas_seating", "label": "Sofas & Seating" },
+        { "id": "dining_tables", "label": "Dining Tables" },
+        { "id": "coffee_center_tables", "label": "Coffee & Center Tables" },
+        { "id": "outdoor_balcony", "label": "Outdoor & Balcony" }
+      ],
+      "hero": {
+        "h1": "Furniture That Works. Wherever You Call Home.",
+        "sub": "Durable metal sofas and tables designed for everyday living — the same precision manufacturing and 9-step powder coating trusted by institutions, built for your home."
+      },
+      "bulkCta": {
+        "title": "Looking to furnish your home?",
+        "desc": "Get dealer and retail pricing on metal sofas, tables and home furniture.",
+        "ctaLabel": "Find a Dealer"
+      },
+      "faq": [
+        {
+          "q": "Can I buy UFI metal furniture directly for my home?",
+          "a": "UFI's primary focus is institutional and bulk supply, but individual home orders are welcome. Contact UFI directly for retail pricing and availability in your area."
+        },
+        {
+          "q": "Are UFI metal sofas comfortable for daily home use?",
+          "a": "Yes. The steel frame provides structural durability while cushioned upholstery is fitted for everyday seating comfort, the same balance used in UFI's institutional waiting-area seating."
+        },
+        {
+          "q": "What's the difference between UFI's metal furniture and standard wooden furniture?",
+          "a": "Metal-framed furniture resists warping, cracking and termite damage in ways wood cannot, and UFI's 9-step powder coating adds a further layer of corrosion resistance not available on standard wooden pieces."
+        },
+        {
+          "q": "Do you offer home delivery for individual furniture orders?",
+          "a": "Delivery is available from UFI's Chitwan facility. Contact the sales team with your location for a delivery estimate on individual orders."
+        }
+      ]
     }
   },
 

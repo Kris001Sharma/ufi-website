@@ -116,6 +116,81 @@
       "alt": "Steel Storage Locker"
     },
 
+    "category.hospital_furniture.hero": {
+      "type": "image",
+      "publicId": "ufi/category/hospital_furniture/hero",
+      "alt": "Hospital ward fitted with UFI delivery beds and trolleys",
+      "note": "Cool clinical-toned scrim, not warm — see design-system.md 'Category hero images'."
+    },
+    "products.delivery_bed.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/delivery_bed/angle_01"],
+      "background": "product-stage",
+      "alt": "Obstetric Delivery Bed"
+    },
+    "products.medicine_trolley.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/medicine_trolley/angle_01"],
+      "background": "product-stage",
+      "alt": "Medicine Trolley (MS)"
+    },
+    "products.hospital_bench.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/hospital_bench/angle_01"],
+      "background": "product-stage",
+      "alt": "Hospital Bench (4 Seater)"
+    },
+
+    "category.office_furniture.hero": {
+      "type": "image",
+      "publicId": "ufi/category/office_furniture/hero",
+      "alt": "Executive office fitted with UFI desk and seating",
+      "note": "Neutral slate/charcoal scrim — see design-system.md 'Category hero images'."
+    },
+    "products.executive_desk.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/executive_desk/angle_01"],
+      "background": "product-stage",
+      "alt": "Executive Office Desk"
+    },
+    "products.mesh_chair.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/mesh_chair/angle_01"],
+      "background": "product-stage",
+      "alt": "Ergonomic Mesh Office Chair"
+    },
+    "products.filing_cabinet.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/filing_cabinet/angle_01"],
+      "background": "product-stage",
+      "alt": "Mobile Filing Cabinet"
+    },
+
+    "category.home_furniture.hero": {
+      "type": "image",
+      "publicId": "ufi/category/home_furniture/hero",
+      "alt": "Living room fitted with UFI metal sofa and dining table",
+      "note": "Warm terracotta scrim — see design-system.md 'Category hero images'. No real reference photography exists for this category yet; placeholder only."
+    },
+    "products.metal_sofa.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/metal_sofa/angle_01"],
+      "background": "product-stage",
+      "alt": "Metal Sofa Set"
+    },
+    "products.dining_table.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/dining_table/angle_01"],
+      "background": "product-stage",
+      "alt": "Metal Dining Table"
+    },
+    "products.coffee_table.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/coffee_table/angle_01"],
+      "background": "product-stage",
+      "alt": "Metal Coffee Table"
+    },
+
     "manufacturing.facility_photo": {
       "type": "image",
       "publicId": "ufi/manufacturing/factory_floor_wide",
