@@ -1,0 +1,125 @@
+{
+  "_readme": "Central asset map for the UFI site. Every image/video used in a page is looked up by key from here — never hardcode a Cloudinary URL in a component. Swapping a photo means editing one 'publicId' below, not touching code.",
+
+  "cdn": {
+    "provider": "cloudinary",
+    "cloudName": "REPLACE_WITH_CLOUD_NAME",
+    "defaultTransform": "f_auto,q_auto",
+    "note": "f_auto,q_auto lets Cloudinary auto-serve WebP/AVIF and compress per-browser. Always append this unless a specific override is needed."
+  },
+
+  "video": {
+    "provider": "youtube",
+    "youtubeId": "REPLACE_WITH_YOUTUBE_ID",
+    "note": "Full cinematic case-study video. Loaded via a click-to-play facade — see hero demo. Never auto-embedded, so it never adds weight to first load."
+  },
+
+  "assets": {
+    "global.logo": {
+      "type": "image",
+      "publicId": "ufi/brand/logo_mark",
+      "alt": "Universal Furniture Industries logo"
+    },
+
+    "home.hero.loop": {
+      "type": "video",
+      "publicId": "ufi/hero/loop_v1",
+      "poster": "ufi/hero/loop_poster_v1",
+      "durationSec": 8,
+      "muted": true,
+      "loop": true,
+      "note": "Short, silent, seamless background loop only — never the full narrated case study."
+    },
+    "home.hero.case_study_poster": {
+      "type": "image",
+      "publicId": "ufi/hero/case_study_poster",
+      "alt": "Still frame from the UFI manufacturing story film"
+    },
+
+    "home.sector.store_furniture": {
+      "type": "image",
+      "publicId": "ufi/sectors/store_furniture_hero",
+      "alt": "Double-sided gondola rack in a retail store"
+    },
+    "home.sector.school": {
+      "type": "image",
+      "publicId": "ufi/sectors/school_hero",
+      "alt": "Classroom fitted with UFI two-seater benches"
+    },
+    "home.sector.hospital": {
+      "type": "image",
+      "publicId": "ufi/sectors/hospital_hero",
+      "alt": "UFI delivery bed in a hospital ward"
+    },
+    "home.sector.office": {
+      "type": "image",
+      "publicId": "ufi/sectors/office_hero",
+      "alt": "Executive office fitted with UFI desk and seating"
+    },
+    "home.sector.home": {
+      "type": "image",
+      "publicId": "ufi/sectors/home_hero",
+      "alt": "UFI metal furniture in a residential setting"
+    },
+
+    "products.gondola_rack.stage": {
+      "type": "image_set",
+      "publicIds": [
+        "ufi/products/gondola_rack/angle_01",
+        "ufi/products/gondola_rack/angle_02",
+        "ufi/products/gondola_rack/angle_03"
+      ],
+      "background": "product-stage",
+      "alt": "Double-Sided Gondola Rack"
+    },
+    "products.wall_rack.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/wall_rack/angle_01"],
+      "background": "product-stage",
+      "alt": "Single-Sided Wall Rack"
+    },
+    "products.angle_rack.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/angle_rack/angle_01"],
+      "background": "product-stage",
+      "alt": "Heavy Duty Angle Rack"
+    },
+
+    "category.store_furniture.hero": {
+      "type": "image",
+      "publicId": "ufi/category/store_furniture/hero",
+      "alt": "Retail store fitted with UFI display racks and gondola shelving"
+    },
+
+    "category.school_furniture.hero": {
+      "type": "image",
+      "publicId": "ufi/category/school_furniture/hero",
+      "alt": "Classroom fitted with UFI two-seater benches and desks",
+      "note": "Full-bleed hero background — rendered with a warm left-to-right scrim for text legibility, not a flat dark overlay. See design-system.md 'Category hero images'."
+    },
+    "products.classroom_bench.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/classroom_bench/angle_01"],
+      "background": "product-stage",
+      "alt": "Two Seater Classroom Bench"
+    },
+    "products.student_desk_chair.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/student_desk_chair/angle_01"],
+      "background": "product-stage",
+      "alt": "Student Desk & Chair Set"
+    },
+    "products.storage_locker.stage": {
+      "type": "image_set",
+      "publicIds": ["ufi/products/storage_locker/angle_01"],
+      "background": "product-stage",
+      "alt": "Steel Storage Locker"
+    },
+
+    "manufacturing.facility_photo": {
+      "type": "image",
+      "publicId": "ufi/manufacturing/factory_floor_wide",
+      "alt": "UFI factory floor in Chitwan"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "_readme": "Central text-content map, structured to mirror ufi_assets.config.json exactly (same page.section.element key convention). Product names, descriptions, and any copy that describes a specific item lives here, not hardcoded in HTML. A content edit should mean editing a value below, not opening a template.",
+
+  "categories": {
+    "store_furniture": {
+      "name": "Store & Supermarket Furniture",
+      "shortName": "Store Furniture",
+      "tag": "Primary",
+      "accentColor": "#006a6a",
+      "shortDescription": "Supermarket display & gondola racks",
+      "longDescription": "Display racks and gondola shelving for supermarkets and department stores.",
+      "url": "/store-furniture/",
+      "products": [
+        {
+          "id": "double_sided_gondola",
+          "name": "Double Sided Gondola Rack",
+          "shortName": "Double Sided Gondola",
+          "subCategory": "gondola_racks",
+          "spec": "100kg load capacity per tier",
+          "rating": 5,
+          "bestseller": true,
+          "description": "Our flagship retail display solution. Engineered with high-grade steel and finished with our signature 9-step powder coating for maximum scuff resistance in high-traffic environments.",
+          "configurator": {
+            "finishes": ["White", "Charcoal", "Silver"],
+            "tiers": ["4 Tiers", "5 Tiers", "6 Tiers"],
+            "defaultTier": "5 Tiers"
+          }
+        },
+        {
+          "id": "single_sided_wall_rack",
+          "name": "Single Sided Wall Rack",
+          "subCategory": "wall_racks",
+          "spec": "80kg load capacity per tier",
+          "rating": 4,
+          "bestseller": false
+        },
+        {
+          "id": "heavy_duty_angle_rack",
+          "name": "Heavy Duty Angle Rack",
+          "subCategory": "custom_fixtures",
+          "spec": "150kg load capacity per tier",
+          "rating": 5,
+          "bestseller": false
+        }
+      ],
+      "subCategoryFilters": [
+        { "id": "gondola_racks", "label": "Gondola Racks" },
+        { "id": "wall_racks", "label": "Wall Racks" },
+        { "id": "vip_display", "label": "VIP Display" },
+        { "id": "custom_fixtures", "label": "Custom Fixtures" }
+      ],
+      "hero": {
+        "h1": "Precision-Engineered Store Display Systems",
+        "sub": "Industrial-grade durability meets retail visibility. Built for high-capacity loads and engineered to showcase your products seamlessly."
+      },
+      "bulkCta": {
+        "title": "Supplying stores across Chitwan?",
+        "desc": "Get volume pricing for institutional and bulk retail orders."
+      }
+    },
+    "school_furniture": {
+      "name": "School & Institutional Furniture",
+      "shortName": "School Furniture",
+      "accentColor": "#FBB03D",
+      "shortDescription": "School desks, benches & lockers",
+      "longDescription": "School desks, benches and lockers for schools and institutions in Nepal.",
+      "url": "/school-furniture/",
+      "products": [
+        {
+          "id": "two_seater_classroom_bench",
+          "name": "Two Seater Classroom Bench",
+          "subCategory": "benches_seating",
+          "spec": "Seats 2 students, powder-coated steel frame",
+          "rating": 5,
+          "bestseller": true,
+          "bestsellerLabel": "Most Ordered",
+          "description": "Ergonomic design for comfort that lasts a full school day — and a full school career. Wood-finish top on a powder-coated steel frame built to handle a generation of students.",
+          "configurator": {
+            "finishes": ["Navy Frame", "Charcoal Frame"],
+            "sizes": ["Primary School", "Secondary School"],
+            "defaultSize": "Primary School"
+          }
+        },
+        {
+          "id": "student_desk_chair_set",
+          "name": "Student Desk & Chair Set",
+          "subCategory": "classroom_desks",
+          "spec": "Adjustable height, wipeable laminate top",
+          "rating": 4,
+          "bestseller": false
+        },
+        {
+          "id": "steel_storage_locker",
+          "name": "Steel Storage Locker",
+          "subCategory": "lockers_storage",
+          "spec": "Multi-compartment, secure steel storage",
+          "rating": 5,
+          "bestseller": false
+        }
+      ],
+      "subCategoryFilters": [
+        { "id": "classroom_desks", "label": "Classroom Desks" },
+        { "id": "benches_seating", "label": "Benches & Seating" },
+        { "id": "lockers_storage", "label": "Lockers & Storage" },
+        { "id": "lab_library", "label": "Lab & Library" }
+      ],
+      "hero": {
+        "h1": "Where Young Minds Find Their Place",
+        "sub": "Ergonomic desks, benches and storage engineered for the classroom — built to handle a generation of students, not just a semester."
+      },
+      "bulkCta": {
+        "title": "Equipping a new school or campus?",
+        "desc": "Get institutional pricing for bulk classroom orders."
+      }
+    },
+    "hospital_furniture": {
+      "name": "Hospital Furniture",
+      "shortName": "Hospital Furniture",
+      "accentColor": "#3E6690",
+      "shortDescription": "Hospital beds, trolleys & ward units",
+      "longDescription": "Hospital beds, trolleys and ward furniture.",
+      "url": "/hospital-furniture/"
+    },
+    "office_furniture": {
+      "name": "Office Furniture",
+      "shortName": "Office Furniture",
+      "accentColor": "#5b6b76",
+      "shortDescription": "Office tables, chairs & storage",
+      "longDescription": "Office tables, chairs and storage units.",
+      "url": "/office-furniture/"
+    },
+    "home_furniture": {
+      "name": "Home Furniture",
+      "shortName": "Home Furniture",
+      "accentColor": "#C1694F",
+      "shortDescription": "Metal sofas & dining tables",
+      "longDescription": "Metal sofas and dining tables.",
+      "url": "/home-furniture/"
+    }
+  },
+
+  "manufacturing.nine_step_process": {
+    "_note": "Simplified marketing framing, matches the real tank-line photo where content overlaps (Degreasing, Phosphating). See decisions-log.md — the real facility has more granular sub-stages than this 9-step version; this is the current agreed content, not the maximum-detail version.",
+    "steps": [
+      { "num": "01", "label": "Degreasing", "desc": "Removes oil, grease and dirt from the raw metal surface." },
+      { "num": "02", "label": "Water Rinse 1", "desc": "Rinses off the cleaning agent before the next stage." },
+      { "num": "03", "label": "Derusting / Pickling", "desc": "Removes rust and scale to expose clean, bare metal." },
+      { "num": "04", "label": "Water Rinse 2", "desc": "Rinses off residual acid from the pickling stage." },
+      { "num": "05", "label": "Neutralizing", "desc": "Neutralizes any remaining acid reaction on the surface." },
+      { "num": "06", "label": "Water Rinse 3", "desc": "Rinses off neutralizing residues before phosphating." },
+      { "num": "07", "label": "Phosphating", "desc": "Creates a protective phosphate layer so the coating bonds permanently." },
+      { "num": "08", "label": "Water Rinse 4", "desc": "A final rinse with clean water before passivation." },
+      { "num": "09", "label": "Passivation", "desc": "Enhances corrosion resistance ahead of the powder coating booth." }
+    ]
+  },
+
+  "home.trust_markers": [
+    { "title": "Built to Last", "desc": "High-quality materials for long-lasting performance." },
+    { "title": "Smart Design", "desc": "Functional and space-saving designs for every need." },
+    { "title": "Premium Quality", "desc": "Finely crafted for strength, safety and reliability." },
+    { "title": "Trusted Partner", "desc": "Committed to quality service and customer satisfaction." }
+  ],
+
+  "home.stats": [
+    { "value": "1990", "label": "Established in Chitwan" },
+    { "value": "34+", "label": "Years Manufacturing" },
+    { "value": "10,000+", "label": "Institutional Installations" }
+  ],
+
+  "company": {
+    "legalName": "Universal Furniture Industries",
+    "shortName": "UFI",
+    "phone": "+977-9855053857",
+    "address": "Bharatpur-07, Srijana Tole, Chitwan, Nepal",
+    "foundingYear": "1990",
+    "facebook": "https://www.facebook.com/ufichitwan",
+    "tiktok": "https://www.tiktok.com/@ufichitwan"
+  }
+}

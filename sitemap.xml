@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Only list URLs that are actually live and indexable — submitting planned-but-unbuilt
+  pages to Google as 404s damages crawl trust. Add a <url> block here the same day each
+  page in site-architecture.md ships, not before.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.ufichitwan.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
