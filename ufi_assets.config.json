@@ -3,7 +3,7 @@
 
   "cdn": {
     "provider": "cloudinary",
-    "cloudName": "REPLACE_WITH_CLOUD_NAME",
+    "cloudName": "devkrish",
     "defaultTransform": "f_auto,q_auto",
     "note": "f_auto,q_auto lets Cloudinary auto-serve WebP/AVIF and compress per-browser. Always append this unless a specific override is needed."
   },
@@ -38,49 +38,51 @@
 
     "home.sector.store_furniture": {
       "type": "image",
-      "publicId": "ufi/sectors/store_furniture_hero",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/8_vv9wji.jpg",
       "alt": "Double-sided gondola rack in a retail store"
     },
     "home.sector.school": {
       "type": "image",
-      "publicId": "ufi/sectors/school_hero",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/8_vv9wji.jpg",
       "alt": "Classroom fitted with UFI two-seater benches"
     },
     "home.sector.hospital": {
       "type": "image",
-      "publicId": "ufi/sectors/hospital_hero",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/8_vv9wji.jpg",
       "alt": "UFI delivery bed in a hospital ward"
     },
     "home.sector.office": {
       "type": "image",
-      "publicId": "ufi/sectors/office_hero",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/8_vv9wji.jpg",
       "alt": "Executive office fitted with UFI desk and seating"
     },
     "home.sector.home": {
       "type": "image",
-      "publicId": "ufi/sectors/home_hero",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/8_vv9wji.jpg",
       "alt": "UFI metal furniture in a residential setting"
     },
 
     "products.gondola_rack.stage": {
       "type": "image_set",
       "publicIds": [
-        "ufi/products/gondola_rack/angle_01",
-        "ufi/products/gondola_rack/angle_02",
-        "ufi/products/gondola_rack/angle_03"
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
       ],
       "background": "product-stage",
       "alt": "Double-Sided Gondola Rack"
     },
     "products.wall_rack.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/wall_rack/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Single-Sided Wall Rack"
     },
     "products.angle_rack.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/angle_rack/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Heavy Duty Angle Rack"
     },
@@ -99,19 +101,25 @@
     },
     "products.classroom_bench.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/classroom_bench/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Two Seater Classroom Bench"
     },
     "products.student_desk_chair.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/student_desk_chair/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Student Desk & Chair Set"
     },
     "products.storage_locker.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/storage_locker/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Steel Storage Locker"
     },
@@ -124,19 +132,25 @@
     },
     "products.delivery_bed.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/delivery_bed/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Obstetric Delivery Bed"
     },
     "products.medicine_trolley.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/medicine_trolley/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Medicine Trolley (MS)"
     },
     "products.hospital_bench.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/hospital_bench/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Hospital Bench (4 Seater)"
     },
@@ -149,19 +163,25 @@
     },
     "products.executive_desk.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/executive_desk/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Executive Office Desk"
     },
     "products.mesh_chair.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/mesh_chair/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Ergonomic Mesh Office Chair"
     },
     "products.filing_cabinet.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/filing_cabinet/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Mobile Filing Cabinet"
     },
@@ -174,27 +194,62 @@
     },
     "products.metal_sofa.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/metal_sofa/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Metal Sofa Set"
     },
     "products.dining_table.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/dining_table/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Metal Dining Table"
     },
     "products.coffee_table.stage": {
       "type": "image_set",
-      "publicIds": ["ufi/products/coffee_table/angle_01"],
+      "publicIds": [
+        "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg"
+      ],
       "background": "product-stage",
       "alt": "Metal Coffee Table"
     },
 
     "manufacturing.facility_photo": {
       "type": "image",
-      "publicId": "ufi/manufacturing/factory_floor_wide",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/8_vv9wji.jpg",
       "alt": "UFI factory floor in Chitwan"
+    },
+
+    "pages.about.hero": {
+      "type": "image",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/8_vv9wji.jpg",
+      "alt": "UFI factory floor and team in Chitwan",
+      "note": "Umbrella-brand hero, not category-colored — navy/gold only, see next-phase-concept-brief.md."
+    },
+    "pages.about.director_photo": {
+      "type": "image",
+      "publicId": "ufi/about/director_chandra_shekhar",
+      "alt": "Chandra Shekhar, Director and Founder of Universal Furniture Industries"
+    },
+
+    "projects.central_department_store.hero": {
+      "type": "image",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg",
+      "alt": "Central Department Store display upgrade — UFI gondola racks and signage"
+    },
+    "projects.regional_hospital.hero": {
+      "type": "image",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg",
+      "alt": "Regional Hospital ward modernization — UFI hospital beds and storage"
+    },
+    "projects.national_university.hero": {
+      "type": "image",
+      "publicId": "https://res.cloudinary.com/devkrish/image/upload/v1786806138/7_qnqtoi.jpg",
+      "alt": "National University Science Wing — UFI classroom benches and lockers"
     }
   }
 }
+

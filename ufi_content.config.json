@@ -1,6 +1,5 @@
 {
   "_readme": "Central text-content map, structured to mirror ufi_assets.config.json exactly (same page.section.element key convention). Product names, descriptions, and any copy that describes a specific item lives here, not hardcoded in HTML. A content edit should mean editing a value below, not opening a template.",
-
   "categories": {
     "store_furniture": {
       "name": "Store & Supermarket Furniture",
@@ -21,8 +20,16 @@
           "bestseller": true,
           "description": "Our flagship retail display solution. Engineered with high-grade steel and finished with our signature 9-step powder coating for maximum scuff resistance in high-traffic environments.",
           "configurator": {
-            "finishes": ["White", "Charcoal", "Silver"],
-            "tiers": ["4 Tiers", "5 Tiers", "6 Tiers"],
+            "finishes": [
+              "White",
+              "Charcoal",
+              "Silver"
+            ],
+            "tiers": [
+              "4 Tiers",
+              "5 Tiers",
+              "6 Tiers"
+            ],
             "defaultTier": "5 Tiers"
           }
         },
@@ -44,10 +51,22 @@
         }
       ],
       "subCategoryFilters": [
-        { "id": "gondola_racks", "label": "Gondola Racks" },
-        { "id": "wall_racks", "label": "Wall Racks" },
-        { "id": "vip_display", "label": "VIP Display" },
-        { "id": "custom_fixtures", "label": "Custom Fixtures" }
+        {
+          "id": "gondola_racks",
+          "label": "Gondola Racks"
+        },
+        {
+          "id": "wall_racks",
+          "label": "Wall Racks"
+        },
+        {
+          "id": "vip_display",
+          "label": "VIP Display"
+        },
+        {
+          "id": "custom_fixtures",
+          "label": "Custom Fixtures"
+        }
       ],
       "hero": {
         "h1": "Precision-Engineered Store Display Systems",
@@ -76,8 +95,14 @@
           "bestsellerLabel": "Most Ordered",
           "description": "Ergonomic design for comfort that lasts a full school day — and a full school career. Wood-finish top on a powder-coated steel frame built to handle a generation of students.",
           "configurator": {
-            "finishes": ["Navy Frame", "Charcoal Frame"],
-            "sizes": ["Primary School", "Secondary School"],
+            "finishes": [
+              "Navy Frame",
+              "Charcoal Frame"
+            ],
+            "sizes": [
+              "Primary School",
+              "Secondary School"
+            ],
             "defaultSize": "Primary School"
           }
         },
@@ -99,10 +124,22 @@
         }
       ],
       "subCategoryFilters": [
-        { "id": "classroom_desks", "label": "Classroom Desks" },
-        { "id": "benches_seating", "label": "Benches & Seating" },
-        { "id": "lockers_storage", "label": "Lockers & Storage" },
-        { "id": "lab_library", "label": "Lab & Library" }
+        {
+          "id": "classroom_desks",
+          "label": "Classroom Desks"
+        },
+        {
+          "id": "benches_seating",
+          "label": "Benches & Seating"
+        },
+        {
+          "id": "lockers_storage",
+          "label": "Lockers & Storage"
+        },
+        {
+          "id": "lab_library",
+          "label": "Lab & Library"
+        }
       ],
       "hero": {
         "h1": "Where Young Minds Find Their Place",
@@ -131,8 +168,14 @@
           "bestsellerLabel": "Featured",
           "description": "Built for modern maternity and delivery wards. Adjustable positioning, easy-clean surfaces, and the same 9-step powder-coated finish used across every UFI category for long-term corrosion resistance in high-hygiene environments.",
           "configurator": {
-            "finishes": ["Clinical White", "Stainless Steel"],
-            "sizes": ["Manual Crank", "Electric Adjustable"],
+            "finishes": [
+              "Clinical White",
+              "Stainless Steel"
+            ],
+            "sizes": [
+              "Manual Crank",
+              "Electric Adjustable"
+            ],
             "defaultSize": "Manual Crank"
           }
         },
@@ -154,10 +197,22 @@
         }
       ],
       "subCategoryFilters": [
-        { "id": "patient_beds", "label": "Patient Beds" },
-        { "id": "trolleys_carts", "label": "Trolleys & Carts" },
-        { "id": "ward_seating", "label": "Ward Seating" },
-        { "id": "storage_cabinets", "label": "Storage & Cabinets" }
+        {
+          "id": "patient_beds",
+          "label": "Patient Beds"
+        },
+        {
+          "id": "trolleys_carts",
+          "label": "Trolleys & Carts"
+        },
+        {
+          "id": "ward_seating",
+          "label": "Ward Seating"
+        },
+        {
+          "id": "storage_cabinets",
+          "label": "Storage & Cabinets"
+        }
       ],
       "hero": {
         "h1": "Designed for Care. Built for Comfort.",
@@ -204,8 +259,14 @@
           "bestsellerLabel": "Featured",
           "description": "The anchor piece for any executive workspace. Powder-coated steel frame beneath a durable laminate work surface, built for daily corporate use, not just the showroom floor.",
           "configurator": {
-            "finishes": ["Walnut", "Charcoal Grey"],
-            "sizes": ["Compact — 120cm", "Executive — 160cm"],
+            "finishes": [
+              "Walnut",
+              "Charcoal Grey"
+            ],
+            "sizes": [
+              "Compact — 120cm",
+              "Executive — 160cm"
+            ],
             "defaultSize": "Executive — 160cm"
           }
         },
@@ -227,10 +288,22 @@
         }
       ],
       "subCategoryFilters": [
-        { "id": "desks_workstations", "label": "Desks & Workstations" },
-        { "id": "seating", "label": "Seating" },
-        { "id": "storage_filing", "label": "Storage & Filing" },
-        { "id": "reception_lounge", "label": "Reception & Lounge" }
+        {
+          "id": "desks_workstations",
+          "label": "Desks & Workstations"
+        },
+        {
+          "id": "seating",
+          "label": "Seating"
+        },
+        {
+          "id": "storage_filing",
+          "label": "Storage & Filing"
+        },
+        {
+          "id": "reception_lounge",
+          "label": "Reception & Lounge"
+        }
       ],
       "hero": {
         "h1": "Furniture That Works. Spaces That Inspire.",
@@ -278,8 +351,14 @@
           "bestsellerLabel": "Featured",
           "description": "The same precision manufacturing and 9-step powder coating trusted by schools and hospitals, brought into the living room. A steel-framed sofa built to outlast the furniture around it.",
           "configurator": {
-            "finishes": ["Matte Black", "Bronze"],
-            "sizes": ["2-Seater", "3-Seater"],
+            "finishes": [
+              "Matte Black",
+              "Bronze"
+            ],
+            "sizes": [
+              "2-Seater",
+              "3-Seater"
+            ],
             "defaultSize": "3-Seater"
           }
         },
@@ -301,10 +380,22 @@
         }
       ],
       "subCategoryFilters": [
-        { "id": "sofas_seating", "label": "Sofas & Seating" },
-        { "id": "dining_tables", "label": "Dining Tables" },
-        { "id": "coffee_center_tables", "label": "Coffee & Center Tables" },
-        { "id": "outdoor_balcony", "label": "Outdoor & Balcony" }
+        {
+          "id": "sofas_seating",
+          "label": "Sofas & Seating"
+        },
+        {
+          "id": "dining_tables",
+          "label": "Dining Tables"
+        },
+        {
+          "id": "coffee_center_tables",
+          "label": "Coffee & Center Tables"
+        },
+        {
+          "id": "outdoor_balcony",
+          "label": "Outdoor & Balcony"
+        }
       ],
       "hero": {
         "h1": "Furniture That Works. Wherever You Call Home.",
@@ -335,35 +426,88 @@
       ]
     }
   },
-
   "manufacturing.nine_step_process": {
     "_note": "Simplified marketing framing, matches the real tank-line photo where content overlaps (Degreasing, Phosphating). See decisions-log.md — the real facility has more granular sub-stages than this 9-step version; this is the current agreed content, not the maximum-detail version.",
     "steps": [
-      { "num": "01", "label": "Degreasing", "desc": "Removes oil, grease and dirt from the raw metal surface." },
-      { "num": "02", "label": "Water Rinse 1", "desc": "Rinses off the cleaning agent before the next stage." },
-      { "num": "03", "label": "Derusting / Pickling", "desc": "Removes rust and scale to expose clean, bare metal." },
-      { "num": "04", "label": "Water Rinse 2", "desc": "Rinses off residual acid from the pickling stage." },
-      { "num": "05", "label": "Neutralizing", "desc": "Neutralizes any remaining acid reaction on the surface." },
-      { "num": "06", "label": "Water Rinse 3", "desc": "Rinses off neutralizing residues before phosphating." },
-      { "num": "07", "label": "Phosphating", "desc": "Creates a protective phosphate layer so the coating bonds permanently." },
-      { "num": "08", "label": "Water Rinse 4", "desc": "A final rinse with clean water before passivation." },
-      { "num": "09", "label": "Passivation", "desc": "Enhances corrosion resistance ahead of the powder coating booth." }
+      {
+        "num": "01",
+        "label": "Degreasing",
+        "desc": "Removes oil, grease and dirt from the raw metal surface."
+      },
+      {
+        "num": "02",
+        "label": "Water Rinse 1",
+        "desc": "Rinses off the cleaning agent before the next stage."
+      },
+      {
+        "num": "03",
+        "label": "Derusting / Pickling",
+        "desc": "Removes rust and scale to expose clean, bare metal."
+      },
+      {
+        "num": "04",
+        "label": "Water Rinse 2",
+        "desc": "Rinses off residual acid from the pickling stage."
+      },
+      {
+        "num": "05",
+        "label": "Neutralizing",
+        "desc": "Neutralizes any remaining acid reaction on the surface."
+      },
+      {
+        "num": "06",
+        "label": "Water Rinse 3",
+        "desc": "Rinses off neutralizing residues before phosphating."
+      },
+      {
+        "num": "07",
+        "label": "Phosphating",
+        "desc": "Creates a protective phosphate layer so the coating bonds permanently."
+      },
+      {
+        "num": "08",
+        "label": "Water Rinse 4",
+        "desc": "A final rinse with clean water before passivation."
+      },
+      {
+        "num": "09",
+        "label": "Passivation",
+        "desc": "Enhances corrosion resistance ahead of the powder coating booth."
+      }
     ]
   },
-
   "home.trust_markers": [
-    { "title": "Built to Last", "desc": "High-quality materials for long-lasting performance." },
-    { "title": "Smart Design", "desc": "Functional and space-saving designs for every need." },
-    { "title": "Premium Quality", "desc": "Finely crafted for strength, safety and reliability." },
-    { "title": "Trusted Partner", "desc": "Committed to quality service and customer satisfaction." }
+    {
+      "title": "Built to Last",
+      "desc": "High-quality materials for long-lasting performance."
+    },
+    {
+      "title": "Smart Design",
+      "desc": "Functional and space-saving designs for every need."
+    },
+    {
+      "title": "Premium Quality",
+      "desc": "Finely crafted for strength, safety and reliability."
+    },
+    {
+      "title": "Trusted Partner",
+      "desc": "Committed to quality service and customer satisfaction."
+    }
   ],
-
   "home.stats": [
-    { "value": "1990", "label": "Established in Chitwan" },
-    { "value": "34+", "label": "Years Manufacturing" },
-    { "value": "10,000+", "label": "Institutional Installations" }
+    {
+      "value": "1990",
+      "label": "Established in Chitwan"
+    },
+    {
+      "value": "34+",
+      "label": "Years Manufacturing"
+    },
+    {
+      "value": "10,000+",
+      "label": "Institutional Installations"
+    }
   ],
-
   "company": {
     "legalName": "Universal Furniture Industries",
     "shortName": "UFI",
@@ -372,5 +516,86 @@
     "foundingYear": "1990",
     "facebook": "https://www.facebook.com/ufichitwan",
     "tiktok": "https://www.tiktok.com/@ufichitwan"
+  },
+  "pages.about": {
+    "hero": {
+      "eyebrow": "About Universal Furniture Industries",
+      "h1": "Engineered in Chitwan. Trusted Since 1990.",
+      "sub": "Three decades of precision metal furniture, built one durability standard at a time — the story behind the racks, benches, beds and desks trusted across Nepal's institutions."
+    },
+    "vision": "To be the manufacturer Nepal's institutions call first — where a school, a hospital, or a store can order once and trust it for decades.",
+    "mission": "We manufacture precision metal furniture from a single facility in Chitwan — engineering every store rack, school bench, hospital bed and office desk to the same 9-step durability standard, so the institutions and businesses that depend on us never have to think about their furniture again.",
+    "howWeBuild": {
+      "eyebrow": "How We Build",
+      "h2": "One Standard, Every Category",
+      "paragraphs": [
+        "Every piece that leaves our Chitwan facility goes through the same 9-stage pre-treatment and powder coating process, regardless of whether it's headed to a hospital ward or a departmental store. Degreasing, derusting, phosphating and passivation aren't steps we skip for a smaller order.",
+        "That consistency is the whole point. A steel frame that resists corrosion in a coastal warehouse resists it in Chitwan's monsoon too — the process doesn't change by category or by client size."
+      ],
+      "stats": [
+        {
+          "value": "1990",
+          "label": "Established in Chitwan"
+        },
+        {
+          "value": "34+",
+          "label": "Years Manufacturing"
+        },
+        {
+          "value": "11–15",
+          "label": "People on the Team"
+        },
+        {
+          "value": "9-Step",
+          "label": "Powder Coating Process"
+        }
+      ]
+    },
+    "whyChitwan": {
+      "eyebrow": "Why Chitwan",
+      "h2": "Made Here, Not Imported",
+      "body": "While much of the furniture sold in Nepal is imported, every piece UFI makes is manufactured right here in Chitwan. That means shorter lead times, direct communication with the people actually building your order, and furniture designed around how Nepali institutions actually use it — not adapted from a catalog built for somewhere else."
+    },
+    "wontCompromise": {
+      "eyebrow": "What We Won't Compromise On",
+      "h2": "The Trade-offs We've Already Made",
+      "items": [
+        "The same 9-step powder coating process for a hospital bed and a home dining table — durability isn't rationed by category.",
+        "One facility we know well, rather than white-labeling from multiple unverified sources.",
+        "_placeholder: additional trade-offs to be confirmed with the client — do not publish beyond the two above without real input."
+      ]
+    },
+    "timeline": [
+      {
+        "year": "1990",
+        "title": "Founded in Chitwan",
+        "desc": "Universal Furniture Industries begins manufacturing metal furniture in Bharatpur-07, Srijana Tole.",
+        "real": true
+      },
+      {
+        "year": "",
+        "title": "Early Expansion — details coming soon",
+        "desc": "Placeholder slot for a real capacity growth, pending client confirmation or equipment milestone, to be confirmed with the client.",
+        "real": false
+      },
+      {
+        "year": "",
+        "title": "Institutional Partnerships — details coming soon",
+        "desc": "Placeholder slot for a real institutional-partnership or capacity milestone, to be confirmed with the client.",
+        "real": false
+      },
+      {
+        "year": "2026",
+        "title": "Digital Transformation",
+        "desc": "UFI's first real digital presence launches — built on the same durability standard as the furniture itself.",
+        "real": true
+      }
+    ],
+    "directorNote": {
+      "name": "Chandra Shekhar",
+      "title": "Director & Founder",
+      "_note": "Draft quote in his voice, pending his real confirmation before publishing — flagged separately from the approved Vision/Mission content.",
+      "quote": "When we started in 1990, we were a small workshop with a handful of machines and a simple promise — build it once, build it right. Thirty-plus years later, that promise hasn't changed, even as everything else has. Every rack, bench, bed and desk that leaves our facility in Chitwan still carries that same standard. I'm proud of what our team has built — not just the furniture, but the trust that comes with a customer knowing exactly what they're getting, every time."
+    }
   }
 }
