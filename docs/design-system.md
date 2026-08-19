@@ -32,7 +32,7 @@ Originally scoped to the homepage quick-cat cards only. Extended to full categor
 
 Fonts, loaded via Google Fonts:
 - **Hanken Grotesk** (400/500/600/700/800) — all UI text, headings, body
-- **Source Serif 4** (italic 500) — reserved for the one heritage/warmth moment (About section's "Trusted since 1990" emphasis). Not used anywhere else. Introducing it a second place dilutes why it's there.
+- **Source Serif 4** (italic 500) — reserved for heritage/warmth moments on the About page: the Vision/Mission statements and the Director's Note pull-quote. Not used on category pages or the homepage beyond the single "Trusted since 1990" emphasis. The About page is the one exception where this font appears multiple times; site-wide it remains sparingly deployed.
 - **IBM Plex Mono** (500/600) — numerals only: the 9-step process numbers, stat figures. Signals "engineered/spec-sheet precision" by contrast against the humanist sans everywhere else.
 
 Type scale — every font-size in the site is one of these tokens (see `:root`):
