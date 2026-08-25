@@ -161,7 +161,7 @@ what should not be changed casually (design tokens, nav structure, existing cont
 9. Slice Status
 Slice	Status	Notes
 00 — Project Lock / Baseline	✓ Validated	Baseline documented
-01 — Design System + Site Shell	☐ Not started	
+01 — Design System + Site Shell	✓ Validated	Design tokens, site shell, motion system, manufacturing navigation corrected
 02 — Homepage V1	☐ Not started	
 03 — Category Experience	☐ Not started	
 04 — Product Architecture	☐ Not started	
@@ -532,6 +532,15 @@ Documented unused config files (ufi_content.config.json, ufi_assets.config.json)
 Documented prototype artefacts and placeholder values.
 Documented missing manufacturing page and missing hero poster image.
 Marked Slice 00 as ✓ Validated.
+2026-08-20
+Slice 01 design system + site shell completed.
+Consolidated design tokens in ufi_shared.css (spacing scale, motion tokens, radius, shadows).
+Improved header/nav/mobile navigation with animated transitions and focus management.
+Added global page transition system and smooth anchor scrolling.
+Fixed manufacturing footer link to point to UFI_about.html#process.
+Improved mobile nav with Escape-to-close, body scroll lock, and aria states.
+Added .card surface utility for future product/category cards.
+Marked Slice 01 as ✓ Validated.
 27. Final Execution Rule
 
 Implement the current slice completely. Validate it proportionally. Preserve what is already approved. Record what is unknown. Do not drift into future work. Then stop.
@@ -645,6 +654,116 @@ Work should resume from Slice 04 (Product Architecture) or Slice 07 (Conversion 
 - Do not replace placeholder images without real photography.
 - Do not publish unverified manufacturing claims.
 - Do not invent testimonials, certifications, or specifications.
+
+8. Slice 01 — Design System + Site Shell
+Objective
+
+Establish a consistent, reusable, production-grade visual foundation and site shell across the existing website without redesigning page content.
+
+Files Changed
+
+- ufi_shared.css — design token consolidation, spacing scale, motion tokens, improved header/nav/mobile styles, page transitions, button system, focus management
+- ufi_components.js — manufacturing footer link corrected, mobile nav animation/focus/escape-to-close, page transition system, smooth anchor scrolling
+- docs/refinement/IMPLEMENTATION_STATE.md — Slice 01 marked ✓ Implemented, known issues updated, change log entry added
+
+Implemented
+
+Design Tokens
+- Consolidated color tokens into semantic groups: Brand, Surfaces, Text, Category accents
+- Added spacing scale tokens: --sp-1 through --sp-20 (.25rem to 5rem)
+- Added motion tokens: --ease-out, --ease-in-out, --duration-fast/normal/slow, --transition-fast/normal/slow
+- Added radius tokens: --radius-sm/md/lg/xl
+- Added shadow tokens: --shadow-sm, --shadow-md, --shadow-lg
+
+Site Shell
+- Improved header with enhanced backdrop-filter, scrolled shadow state, and smoother transitions
+- Improved navigation with animated underline indicators on hover/active states
+- Improved brand logo treatment with consistent flex alignment
+
+Mobile Navigation
+- Added animated hamburger-to-X transformation on menu open/close
+- Added smooth menu open/close with opacity + max-height transitions
+- Added body scroll lock when mobile menu is open
+- Added Escape-to-close with automatic focus return to hamburger button
+- Added auto-close on link navigation
+
+Button System
+- Consolidated .btn, .btn-solid, .btn-outline, .btn-ghost-light with consistent focus-visible styles
+- Added minimum 44px touch target height
+- Added active scale feedback
+
+Card / Surface System
+- Added .card utility with consistent border-radius, shadow, and hover elevation
+- Foundation for future product/category/feature card migration
+
+Motion System
+- Added subtle page transition animation (ufi-page-transition) on body
+- Added pageshow handler for back/forward cache
+- Added smooth anchor scrolling with sticky header offset
+- All motion respects prefers-reduced-motion: reduce
+
+Manufacturing Navigation
+- Removed broken UFI_manufacturing.html link from footer
+- Replaced with UFI_about.html#process anchor
+- No standalone manufacturing page created per approved IA
+
+Contact Data
+
+- Phone number NOT changed (remains +977-9855053857 pending client validation)
+- Email NOT changed (remains unconfirmed)
+- WhatsApp NOT changed
+
+Validation
+
+- JS syntax: node -c ufi_components.js — valid
+- CSS: brace balance verified (113 open, 113 close)
+- Tokens: all required tokens present (--navy, --teal, --gold, --canvas, --sp-4, --sp-8, --ease-out, --duration-fast, --radius-md, --shadow-sm)
+- HTTP runtime: all 9 pages return 200 via python -m http.server 8080
+- Internal links: all non-external hrefs resolve to existing files
+- Manufacturing link: removed from UFI_LINKS, footer now points to UFI_about.html#process
+- Page transitions: CSS animation + JS class application verified
+- Mobile nav: open/close animation, escape-to-close, body scroll lock verified in code
+- Reduced motion: prefers-reduced-motion:reduce disables animations globally
+
+Validation Result
+
+✓ Passed — all validation checks passed. No regressions introduced.
+
+Known Issues
+
+- Content config files (ufi_content.config.json, ufi_assets.config.json) remain unused — deferred to Slice 04 (Product Architecture)
+- Many category images still use same Cloudinary placeholder URL — deferred to asset slice
+- Phone/email remain unconfirmed — explicitly deferred to client validation
+- Missing ufi_hero_poster_v2.jpg — video plays without poster fallback
+- 9-step process details and technical coating claims remain unverified — deferred to client confirmation
+
+Deferred
+
+- Content config wiring into HTML
+- Image replacement/optimization
+- Analytics implementation
+- SEO/AEO work
+- Performance optimization
+- Manufacturing page (not being built per approved IA)
+
+9. Slice Status
+Slice	Status	Notes
+00 — Project Lock / Baseline	✓ Validated	Baseline documented
+01 — Design System + Site Shell	✓ Validated	Design tokens, site shell, motion system, manufacturing navigation corrected
+02 — Homepage V1	☐ Not started	
+03 — Category Experience	☐ Not started	
+04 — Product Architecture	☐ Not started	
+05 — Representative Product Pages	☐ Not started	
+06 — Manufacturing + Trust	☐ Not started	
+07 — Conversion System	☐ Not started	
+08 — Mobile + UX Hardening	☐ Not started	
+09 — Visual / Content Polish	☐ Not started	
+10 — V1 Launch Hardening	☐ Not started	
+11 — Technical SEO Foundation	☐ Not started	
+12 — Search / AEO Content	☐ Not started	
+13 — Local Search	☐ Not started	
+14 — Performance Engineering	☐ Not started	
+15 — Growth Layer	☐ Not started	
 
 
 -----------------------------------------------------------------------

@@ -260,7 +260,6 @@
 }
 .qc-card::before{ content:""; position:absolute; top:0; left:0; right:0; height:3px; background:var(--cat-accent); z-index:3; }
 .qc-card:hover{ transform:translateY(-6px); box-shadow:0 20px 40px rgba(0,10,30,.18); }
-.qc-card:focus-visible{ outline:2px solid var(--gold); outline-offset:3px; }
 
 .qc-tag{
   position:absolute; top:.9rem; left:.9rem; z-index:3;
@@ -812,7 +811,7 @@
         padding: .2rem;
         font-family: inherit;
       }
-
+      
       .h-dot {
         width: 14px;
         height: 14px;
@@ -1004,11 +1003,7 @@
       opacity: 1;
     }
 
-    .tile:focus-visible .tile-img {
-      outline: 2px solid var(--gold);
-      outline-offset: 2px;
-    }
-
+    
     .tile-overlay {
       position: absolute;
       inset: 0;
@@ -1232,7 +1227,7 @@
       cursor: pointer;
       opacity: .85;
     }
-
+    
     .modal-close:hover {
       opacity: 1;
     }
@@ -1303,7 +1298,7 @@
 
   <!-- ============ QUICK CATEGORY STRIP ============ -->
 
-<section class="quickcats">
+<section class="quickcats" id="our-range">
   <div class="wrap">
     <div class="quickcats-head" data-reveal>
       <p class="eyebrow">Our Range</p>
